@@ -73,9 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getSupportFragmentManager());
-        adapter.addFragment(new ListContentFragment(), "List");
-        adapter.addFragment(new CardContentFragment(), "Card");
-        adapter.addFragment(new TileContentFragment(), "Tile");
+        adapter.addFragment(new ListContentFragment(), "최근 일정");
+        adapter.addFragment(new CardContentFragment(), "일기");
+        adapter.addFragment(new TileContentFragment(), "가계부");
 
         viewPager.setAdapter(adapter);
 
