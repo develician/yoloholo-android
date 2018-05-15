@@ -33,8 +33,40 @@
             android:textColor="@color/white"
             />
 
-        <TextView
+        <!--<TextView-->
+            <!--android:id="@+id/card_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/card_image"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--tools:text="@string/item_desc"-->
+            <!--android:ellipsize="end"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/dark_grey"-->
+            <!--android:textSize="16sp"-->
+            <!--/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/card_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/card_image"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:layout_marginBottom="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--tools:text="@string/item_desc"-->
+            <!--android:ellipsize="end"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="@color/dark_grey"-->
+            <!--android:textSize="16sp" />-->
+
+        <com.github.irshulx.Editor
             android:id="@+id/card_text"
+            app:render_type="Renderer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/card_image"
@@ -46,8 +78,8 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:textColor="@color/dark_grey"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
+
         <Button
             android:id="@+id/action_button"
             android:layout_width="wrap_content"

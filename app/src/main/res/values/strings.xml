@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Yolo Holo</string>
     <string name="action_settings">Settings</string>
+    <string name="action_save_diary">저장하기</string>
     <string name="item_title">Palais Garnier</string>
     <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
         the Paris Opera.
@@ -13,4 +14,8 @@
         deserunt mollit anim id est laborum.
     </string>
     <string name="detail_location">"8 Rue Scribe, 75009 Paris, France"</string>
+    <string name="md_sample_data">
+        ### MarkdownView Live Preview \n * * * \n  Edit the text to see it updated instantly.\n
+        ![](https://i.imgur.com/PYTZkjV.jpgg =20x20)
+    </string>
 </resources>

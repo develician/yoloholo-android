@@ -2,7 +2,7 @@
 <android.support.v4.widget.DrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/insertDrawer"
+    android:id="@+id/arriveDrawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
@@ -10,18 +10,18 @@
     <android.support.design.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/insert_content"
+        android:id="@+id/arrive_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <android.support.design.widget.AppBarLayout
-            android:id="@+id/appbarInsert"
+            android:id="@+id/appbarArrive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarInsert"
+                android:id="@+id/toolbarArrive"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
@@ -39,17 +39,17 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:id="@+id/descTextView"
+                android:id="@+id/descTextViewArrive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="출발 날짜 선택"
+                android:text="도착 날짜 선택"
                 android:textSize="15sp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textAlignment="center"/>
 
             <com.applandeo.materialcalendarview.CalendarView
-                android:id="@+id/calendarView"
-                android:layout_below="@+id/descTextView"
+                android:id="@+id/calendarViewArrive"
+                android:layout_below="@+id/descTextViewArrive"
                 app:datePicker="true"
                 app:selectionColor="@color/dark_grey"
                 app:todayLabelColor="@color/colorPrimaryDark"
@@ -59,7 +59,7 @@
 
             <Button
                 android:layout_alignParentBottom="true"
-                android:id="@+id/selectButton"
+                android:id="@+id/selectButtonArrive"
                 android:text="선택하기"
                 android:textColor="@color/white"
                 android:layout_width="match_parent"
@@ -68,6 +68,7 @@
 
         </RelativeLayout>
 
+        
 
 
     </android.support.design.widget.CoordinatorLayout>

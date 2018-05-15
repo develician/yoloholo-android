@@ -64,7 +64,7 @@
 
     </string-array>
     <array name="places_picture">
-        <item>@drawable/a</item>
+        <item>@drawable/no_image</item>
         <item>@drawable/b</item>
         <item>@drawable/c</item>
         <item>@drawable/d</item>
